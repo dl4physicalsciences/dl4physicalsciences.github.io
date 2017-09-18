@@ -2438,7 +2438,7 @@
 		.image.left {
 			float: left;
 			margin: 0 1.5em 1em 0;
-			top: 0.25em;
+			/*top: 0.25em;*/
 		}
 
 		.image.right {
@@ -3027,8 +3027,8 @@
 
 		.spotlight .image {
 			display: inline-block;
-			margin-left: 4em;
-			padding: 0.65em;
+			margin-left: -0.4em;
+			/*padding: 0.65em;*/
 			/*border-radius: 100%;*/
 			border: solid 1px;
 		}
@@ -3592,7 +3592,7 @@
 		}
 
 		#main .spotlight .image {
-			border-color: #dddddd;
+			/*border-color: #dddddd;*/
 		}
 
 		#main > .main {
