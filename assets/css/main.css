@@ -1627,7 +1627,7 @@
 		background-image: url("images/potw1712a-resized.jpg");
 	}
 
-		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
+		/* body.is-loading *, body.is-loading *:before, body.is-loading *:after {
 			-moz-animation: none !important;
 			-webkit-animation: none !important;
 			-ms-animation: none !important;
@@ -1636,7 +1636,7 @@
 			-webkit-transition: none !important;
 			-ms-transition: none !important;
 			transition: none !important;
-		}
+		} */
 
 /* Type */
 
@@ -1679,10 +1679,10 @@
 		}
 
 	a {
-		-moz-transition: color 0.2s ease, border-bottom 0.2s ease;
+		/* -moz-transition: color 0.2s ease, border-bottom 0.2s ease;
 		-webkit-transition: color 0.2s ease, border-bottom 0.2s ease;
 		-ms-transition: color 0.2s ease, border-bottom 0.2s ease;
-		transition: color 0.2s ease, border-bottom 0.2s ease;
+		transition: color 0.2s ease, border-bottom 0.2s ease; */
 		text-decoration: none;
 		border-bottom: dotted 1px;
 		color: inherit;
@@ -1890,10 +1890,10 @@
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		/* -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out; */
 		/*border-radius: 8px;*/
 		border: 0;
 		cursor: pointer;
@@ -2287,10 +2287,10 @@
 
 	.icon {
 		text-decoration: none;
-		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		/* -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out; */
 		border-bottom: none;
 		position: relative;
 	}
@@ -3114,26 +3114,26 @@
 			}
 
 			#header.alt > * {
-				-moz-transition: opacity 3s ease;
-				-webkit-transition: opacity 3s ease;
-				-ms-transition: opacity 3s ease;
-				transition: opacity 3s ease;
-				-moz-transition-delay: 0.5s;
-				-webkit-transition-delay: 0.5s;
-				-ms-transition-delay: 0.5s;
-				transition-delay: 0.5s;
+				/* -moz-transition: opacity 3s ease; */
+				/* -webkit-transition: opacity 3s ease; */
+				/* -ms-transition: opacity 3s ease; */
+				/* transition: opacity 3s ease; */
+				/* -moz-transition-delay: 0.5s; */
+				/* -webkit-transition-delay: 0.5s; */
+				/* -ms-transition-delay: 0.5s; */
+				/* transition-delay: 0.5s; */
 				opacity: 1;
 			}
 
 			#header.alt .logo {
-				-moz-transition: opacity 1.25s ease, -moz-transform 0.5s ease;
-				-webkit-transition: opacity 1.25s ease, -webkit-transform 0.5s ease;
-				-ms-transition: opacity 1.25s ease, -ms-transform 0.5s ease;
-				transition: opacity 1.25s ease, transform 0.5s ease;
-				-moz-transition-delay: 0s;
-				-webkit-transition-delay: 0s;
-				-ms-transition-delay: 0s;
-				transition-delay: 0s;
+				/* -moz-transition: opacity 1.25s ease, -moz-transform 0.5s ease; */
+				/* -webkit-transition: opacity 1.25s ease, -webkit-transform 0.5s ease; */
+				/* -ms-transition: opacity 1.25s ease, -ms-transform 0.5s ease; */
+				/* transition: opacity 1.25s ease, transform 0.5s ease; */
+				/* -moz-transition-delay: 0s; */
+				/* -webkit-transition-delay: 0s; */
+				/* -ms-transition-delay: 0s; */
+				/* transition-delay: 0s; */
 				display: block;
 				margin: 0 0 1.5em 0;
 			}
@@ -3231,10 +3231,10 @@
 /* Nav */
 
 	#nav {
-		-moz-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
+		/* -moz-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		-webkit-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		-ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
-		transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
+		transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease; */
 		background-color: #ffffff;
 		color: #636363;
 		position: absolute;
@@ -3288,10 +3288,10 @@
 		}
 
 			#nav ul li {
-				-moz-transition: margin 0.2s ease;
+				/* -moz-transition: margin 0.2s ease;
 				-webkit-transition: margin 0.2s ease;
 				-ms-transition: margin 0.2s ease;
-				transition: margin 0.2s ease;
+				transition: margin 0.2s ease; */
 				display: inline-block;
 				margin: 0 0.35em;
 				padding: 0;
@@ -3299,10 +3299,10 @@
 			}
 
 				#nav ul li a {
-					-moz-transition: font-size 0.2s ease;
+					/* -moz-transition: font-size 0.2s ease;
 					-webkit-transition: font-size 0.2s ease;
 					-ms-transition: font-size 0.2s ease;
-					transition: font-size 0.2s ease;
+					transition: font-size 0.2s ease; */
 					display: inline-block;
 					height: 2.25em;
 					line-height: 2.25em;
